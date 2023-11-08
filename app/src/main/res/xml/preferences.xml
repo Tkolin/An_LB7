@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Пример переключателя (SwitchPreference) -->
+    <SwitchPreference
+        android:key="allow_sw1"
+        android:title="Переключатель 1"
+        android:summary="Что-то выключить или включить"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="allow_sw2"
+        android:title="Переключатель 1"
+        android:summary="Включить или выключить использование чево-нибуть"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="check_sw3"
+        android:title="Разрешить"
+        android:summary="Что-нибуть"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:key="text_sw4"
+        android:title="Расскажи"
+        android:summary="Введите что-то"
+        android:defaultValue=""
+        android:inputType="text" />
+</PreferenceScreen>
